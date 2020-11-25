@@ -1,0 +1,100 @@
+.topnav {
+    border: 5px outset black;
+    background-color: #333;
+    overflow: hidden;
+    float: right;
+}
+   .topnav a {
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: Daniel Black;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  
+ /* a:hover{
+    color: #000000;
+    background-color: #dadada;
+  }*/
+
+   body {
+        font-family: Helvetica;
+        font-weight: medium;
+        background-color: gray;
+        /*color: black;*/
+        font-size: 18px;
+    }
+    
+    .center {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 1000px;
+        height: 200px;
+        padding: 3px;
+        /*background-color: black;*/
+        /*border: #000000 2px solid;*/
+        border-radius: 70px;
+
+    }
+    
+    a:link {
+        color: black;
+        background-color: transparent;
+        text-decoration: underline;
+      }
+    
+    h1 {
+        text-align: center;
+        font-family: Helvetica;
+        padding-left: 300px;
+    }
+    h3 {
+        font-family: Helvetica;
+        font-weight: bold;
+        color: black
+    }
+    
+    .image {
+        display: block;
+        padding: 3px;
+        background-color: silver;
+        border: black 2px solid;
+        float: left;
+        
+    }
+    
+    p.para1 {
+        color: black;
+        font-size: 18px;
+        padding-left: 150px;
+    }
+    
+    p.para2 {
+        color: black;
+        font-size: 18px;
+        padding-left: 150px;
+    }
+    
+    p.para3 {
+        color: black;
+        font-size: 18px;
+        padding-left: 150px;
+        padding-top: 30px;
+    }
+
+    p.para4 {
+        color: black;
+        font-size: 18px;
+        padding-left: 18px;  
+    }
+
+p::first-letter {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+  
